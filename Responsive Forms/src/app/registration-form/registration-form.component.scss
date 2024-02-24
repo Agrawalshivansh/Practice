@@ -1,0 +1,62 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.details {
+  flex: 1 1 auto;
+  font-size: large; 
+  }
+.row{
+margin-top: -3%;
+margin-left: -1%;
+padding: -1%;
+}
+table {
+  border-collapse: collapse;
+}
+.table{
+  margin-left: 14%;
+  overflow-y: auto;
+  overflow-x:hidden;
+  height: 500px;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+.float-child {
+  float: left;
+  padding: 14px;
+}  
+
+.filter{
+  width: 99%;
+  height: 15%;
+}
+
+.mat-icon { 
+  cursor: pointer;
+ }
+ .icon-display {
+  transform: scale(1.1);
+}
+.color{
+  color: orange;
+  transform: scale(1.1);
+}
+
+h2{
+  margin-left: 62%;
+  margin-top:1%;
+}
+p{
+  margin-left: 65%;
+  margin-top:1%;
+}

@@ -1,0 +1,76 @@
+<div class="float-container">
+  <div class="float-child">
+    <mat-toolbar color = "primary" align="center" style="width:20%; margin-left: 40%; margin-top: 6%;">
+      <span class="details">Login</span>
+    </mat-toolbar>&nbsp;
+    <form [formGroup]="loginform" #form="ngForm">
+       
+    
+      <div class="row">
+        <div class="col mb-2">
+          <mat-form-field  class="form-label" subscriptSizing="dynamic">
+            <mat-label for="email">Email:</mat-label>
+          <input
+          matInput
+            type="email"
+            id="email"
+            name="email"
+            formControlName="email"
+            class="form-control form-control-sm"
+            [class.is-invalid]="email.invalid && (email.dirty || email.touched)"
+          />
+          <div
+            *ngIf="email.invalid && (email.dirty || email.touched)"
+            class="invalid-feedback"
+          >
+            <div *ngIf="email.errors?.['required']">
+              This field is required.
+            </div>
+            <div *ngIf="!email.errors?.['pattern']">Invalid email format.</div>
+          </div>
+          </mat-form-field>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col mb-2">
+          <mat-form-field  class="form-label" subscriptSizing="dynamic">
+            <mat-label for="password">Password:</mat-label>
+            
+          <input
+          matInput
+          
+            type="password"
+            id="password"
+            name="password"
+            formControlName="password"
+            class="form-control form-control-sm"
+            [class.is-invalid]="
+              password.invalid && (password.dirty || password.touched)
+            "
+          />
+          
+          <div
+            *ngIf="password.invalid && (password.dirty || password.touched)"
+            class="invalid-feedback"
+          >
+            <div *ngIf="password.errors?.['required']">
+              This field is required.
+            </div>
+            <div *ngIf="password.errors?.['pattern']">
+              This field must contain only alphabets.
+            </div>
+          </div>
+          </mat-form-field>
+        </div>
+      </div>
+      <button mat-raised-button type="button" color="primary" style=" margin-left:40% ;transform: scale(1);" (click)="signin()">Signin</button>&nbsp;
+      <button mat-raised-button  (click)="SigninWithGoogle()"><img src="..//../assets/images/gmail.png" alt="" height="24px" width="24px"></button>
+      <button mat-raised-button type="button" style="transform: scale(0.9);" (click)="forgotpassword()">Forgot Password?</button>
+      <br>
+          <span  style="margin-left: 40%; font-size: 120%;">Don't have an account? 
+            <a routerLink="/register" class="btn btn-link" style="margin-left: -1%; margin-top: -0.3%;">Register</a>
+          </span>
+  </form>
+  </div>
+</div>

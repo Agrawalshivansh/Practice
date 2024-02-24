@@ -1,0 +1,9 @@
+<div class="confirm-container">
+    <div mat-dialog-content>{{ message }}</div>
+    <div mat-dialog-actions style="float:right;margin:20px;">
+      <button mat-raised-button color="primary" [mat-dialog-close] ="true">Confirm</button>
+      <button mat-raised-button color="warn" [mat-dialog-close]="false">
+        Cancel
+      </button>
+    </div>
+  </div>

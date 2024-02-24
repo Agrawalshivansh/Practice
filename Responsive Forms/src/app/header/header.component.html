@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button [matMenuTriggerFor]="menu"> 
+      <mat-icon>more_vert</mat-icon>
+    </button> Form
+  </mat-toolbar>
+  
+    <mat-menu #menu="matMenu"> 
+  
+    <button mat-menu-item class="nav-link" routerLink="/login">
+      <mat-icon >login</mat-icon>
+      <span>Login</span>
+    </button>
+  
+    <button mat-menu-item class="nav-link" routerLink="/register">
+      <mat-icon >assignment_ind</mat-icon>
+      <span>Register</span>
+    </button>
+  
+  </mat-menu>

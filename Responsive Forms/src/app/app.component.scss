@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 159px);
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 1px;
+  }
+  a[ng-reflect-router-link] {
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+    text-align: center;
+    margin-left: -50%;
+  }
