@@ -1,0 +1,310 @@
+User stories are part of an agile approach that helps shift the focus from writing about requirements to talking about them.
+
+User stories sparks a series of conversations about the features and functionality the user story represents.
+
+why user stories?
+1. Stories keep the focus on the user.
+2. Stories enable collaboration. 
+3. Stories drive creative solutions.
+4. Stories create momentum. 
+
+User stories are also the building blocks of larger agile frameworks like epics and initiatives.
+Epics are large work items broken down into a set of stories, and multiple epics comprise an initiative.
+
+Basic story template:
+As a < type of user >, I want < some goal > so that < some reason >.
+
+
+User stories are written throughout the agile project.Everyone on the team participates with the goal of creating a product backlog that fully describes 
+the functionality to be added over the course of the project.
+
+Good user stories:
+Card: Written description of the story, used for planning and as a reminder
+Conversation: Conversations about the story that serve to flesh out the details of the story
+Confirmation: Tests that convey and document details that can be used to determine when a story is complete.
+
+
+story:  As a frequent traveller, I want to easily plan and organize my trips so that I can make the most of my limited vacation time.
+
+============================================================================================================================================================
+
+Acceptance criteria for user stories are the conditions a product, service, or feature must fulfill for the customer, user,or other systems to accept.
+They are pre-established standards or requirements that a product or function must meet to satisfy the users’ expectations.
+
+They define how each system component should work in a given scenario.
+
+User story acceptance criteria serve several essential purposes in software development projects:
+
+1. Help specify what developers need to achieve
+2. Communicate with users/customer
+3. Conducting feature evaluations.
+4. Prepare for negative scenarios
+
+
+Well-written acceptance criteria help avoid unexpected results at the end of a development stage and ensure that all customers or users are 
+satisfied with what they get.
+
+Good acceptance criteria should have some specific qualities:
+1. Clarity: They should be straightforward and easy to understand for all team members, avoiding any confusion.
+2. Conciseness: The criteria should communicate the necessary information without unnecessary detail.
+3. Testability: Each criteria must be verifiable, allowing testers to clearly determine whether it has been met.
+4. Result-oriented: The focus should be on delivering results that satisfies the customer, emphasizing the end benefit or value.
+
+
+User story: As a frequent traveller, I want to easily plan and organize my trips so that I can make the most of my limited vacation time.
+
+Acceptance criteria: 
+
+1. As a user, I should be able to create a new trip by providing important details such as destination, travel dates, etc.
+2. It should allow me to explore destinations, providing information such as accommodations, and activities.
+3. It should provide suggestions for popular attractions, dining options.
+4. It should send reminders and notifications about upcoming reservations, important travel information.
+
+
+
+
+============================================================================================================================================================
+
+INVEST:
+The INVEST acronym is applied to user stories by Scrum teams. It measures the user story to see if it can be completed in a sprint.
+Teams can use INVEST as a guide to creating meaningful user stories
+
+It stands for:
+
+Independent — Selecting only independent stories reduces or eliminates dependencies, which is especially important in a cross-team context
+
+Negotiable — By partnering with the product owner and the scrum master to refine user stories, developers can get a better understanding of the work 
+surface alternative ideas
+
+Valuable — Asking “is it valuable to do this?” for any user story serves as a key prioritization tool. It also serves as a helpful reminder when refining 
+user stories and making decisions on which stories to include in the sprint backlog
+
+Estimatable — The scrum master can be especially helpful to the team by making sure each person’s point of view has been considered when discussing 
+and sizing user stories
+
+Small — When scrum teams consistently choose small stories and only select as many stories as they can realistically complete during a sprint,
+they significantly improve their chances of achieving the sprint goal and reduce risk
+
+Testable — Consistently articulating clear and concise acceptance criteria helps ensure that the work that a scrum team does is of consistently high 
+quality and meets user expectations.
+
+
+The INVEST principles aligns nicely with the following concepts:
+
+The Three C’s
+The DEEP principle
+
+1. Card — The initial, elemental concept associated with a user story (the shortest form of which is the story’s title)
+2. Conversation — The dialogue that takes place among team members during team planning sessions.This leads to better understanding 
+of a user story, often expressed via documentation.
+3. Confirmation — The point at which team members have a shared understanding of a user story, often formalized via acceptance criteria
+
+Deep:
+Detailed—acceptance criteria to get started
+Emergent—The Product Backlog is never “complete”; it is refined over time
+Estimated—sized in terms of effort
+Prioritized—by value, risk, cost, dependencies, etc.
+
+============================================================================================================================================================
+
+EPIC
+Epics are large bodies of work that can be broken down into a number of smaller tasks (called stories).
+Epics are a helpful way to organize your work and to create a hierarchy
+Epics are almost always delivered over a set of sprints. As a team learns more about an epic through development and customer feedback,
+user stories will be added and removed as necessary. 
+
+When creating a new epic consider other planning and organization tools your team may already have1 in place:
+1. Reporting — Create epics for the projects that managers and executives will want to keep an eye on
+2. Storytelling — Use epics, and the stories that roll up into them, as a mechanism to tell the story of how you arrived at the current state of a 
+feature or product.
+3. Culture — Let organizational culture dictate the size and granularity of an epic.
+4. Time — Most development teams rely on estimation frameworks instead of time, but it’s a worthwhile gut check to make sure your epics will take a 
+couple weeks to complete. Not too long and not too short.
+
+
+============================================================================================================================================================
+
+Product Backlog 
+	
+
+A product backlog is a prioritized list of work for the development team that is derived from the roadmap and its requirements.
+The most important items are shown at the top of the product backlog so the team knows what to deliver first.
+
+Start with the two "R"s:
+A team's roadmap and requirements provide the foundation for the product backlog.
+Roadmap initiatives break down into several epics, and each epic will have several requirements and user stories. 
+
+The backlog serves as the connection between the product owner and the development team.
+The product owner is free to re-prioritize work in the backlog at any time due to customer feedback and new requirements.
+
+Once the product backlog is built, it's important to regularly maintain it to keep pace with the program.
+Product owners should review the backlog before each iteration planning meeting to ensure prioritization is correct and feedback from the 
+last iteration has been incorporated. 
+
+All work items related to the product or project should be included in the backlog. The specific type of items and initiatives will vary from team to team,
+but the following items usually belong in the backlog:
+
+1. New features ideas
+2. Infrastructure changes
+3. Bugs of all levels and severity
+4. Bug fixes
+5. Feature improvements
+6. Feature requests from customers and stakeholders
+
+
+
+============================================================================================================================================================
+
+Sprint Backlog
+
+A sprint backlog is a subset of the product backlog and lists the work items to complete in one specific sprint. 
+The purpose of the sprint backlog is to identify items from the product backlog that the team will work on during the sprint.
+This occurs during the sprint planning process.
+
+The purpose of a sprint backlog is to define work items to tackle within the sprint.
+This keeps information in one shared space in order to streamline communication and create one central source of sprint information. 
+
+Create a sprint backlog during the planning phase of a new project sprint. While you can update individual tasks with details and 
+additional progress during the sprint, the backlog itself shouldn't alter during execution.
+
+============================================================================================================================================================
+
+Sprint
+
+A sprint is a short, time-boxed period when a scrum team works to complete a set amount of work.
+Sprints are at the very heart of scrum and agile methodologies, and getting sprints right will help your agile team ship better software.
+
+Optimize your sprints with automation:
+Once you have mastered how sprints work, you can optimize your processes using automation. 
+Here are three of the most common automation rules used for sprints.
+
+1. Send a weekly message with all issues still open in the sprint. Go to rule.
+2. When a sprint finishes, then assign outstanding issues to the next sprint. Go to rule.
+3. When an issue moves to ‘In Progress’ and the sprint is empty, then move the issue to the next active sprint. Go to rule.
+
+============================================================================================================================================================
+
+Product Owner
+
+A product owner is responsible for ensuring the success of a project. 
+
+The product owner is responsible for managing and optimizing the product backlog in order to maximize the value of the product.
+
+The key responsibilities of a Product Owner are to define user stories and create a product backlog.
+
+The Product Owner is the primary point of contact on behalf of the customer to identify the product requirements for the development team. 
+
+The Product Owner must ensure that the user stories meet customer requirements. The role of the Product Owner is critical for companies 
+that are keen to move to an agile-based product development methodology.
+
+A Product Owner needs to ensure and realize maximum value for the organization, from the product development process.
+This essentially means collaborating closely with the development team and ensuring all the product requirements are well-defined and executed in time.
+
+============================================================================================================================================================
+
+Scrum Master
+
+A Scrum master is the facilitator of scrum, a lightweight agile framework focusing on time-boxed iterations called sprints.
+Scrum masters act as coaches to the rest of the team, or servant leaders, as the Scrum Guide puts it. 
+
+Scrum master responsibilities:
+1. Standups: Facilitate daily standups (or the daily scrum) as needed.
+2. Iteration/sprint planning meetings: Protect the team from over-committing and scope creep. Aid in estimation and sub task creation.
+3. Internal Consulting: Scrum masters should consult with team members and internal stakeholders on how best to work with the scrum team.
+4. Blockers: The scrum master aids the team by eliminating external blockers and managing internal roadblocks through process or workflow improvements.
+
+Scrum masters require a unique set of soft skills to effectively fulfill their roles:
+1. Leadership: Scrum masters must exhibit leadership qualities without being authoritative.
+They lead by serving the team and facilitating their self-organization.
+2. Effective communication: Clear and transparent communication is crucial. Scrum masters ensure all team members and users 
+understand the project's status, goals, and obstacles.
+3. Empathy: It is essential to understand and empathize with the team's challenges. Scrum masters need to support and motivate team members 
+during difficulties.
+4. Problem-solving: Scrum masters often deal with impediments and conflicts. They must be adept at problem-solving and finding 
+solutions to keep the team on track.
+
+============================================================================================================================================================
+Increment
+
+An Increment is a concrete step toward the Product Goal. Each Increment is additive to all prior Increments and thoroughly verified to make sure that 
+it works with all the other Increments. In order to provide value, the increment must be usable.
+
+The Increment is the sum of all Product Backlog items Done during a Sprint and the value of all the previous Increments.
+The entire Scrum Team is accountable for creating a valuable and useful Increment every Sprint.
+
+An Increment is created the moment a Product Backlog item meets the DoD(Definition of Done).
+The DoD is a commitment that Scrum Team has toward the Increment. 
+
+The Definition of Done creates transparency by providing everybody an understanding of what work was done as part of that Increment. 
+If a Product Backlog item does not meet the Definition of Done, it cannot be released, nor can it even be presented at a Sprint Review.
+Instead, it returns to the Product Backlog for future consideration.
+
+
+
+============================================================================================================================================================
+
+Daily Scrum
+
+Daily scrums are quick meetings held each day at the same time for members of the product development team working on a particular sprint.
+The team collectively reviews the progress made toward achieving the Sprint Goal.
+
+Purpose:
+Daily scrums help level-set the team and ensure everyone knows what they’re working on for the next day. If things are running behind, resources 
+should get reallocated accordingly. If developers have already completed their assigned tasks, they’ll be given new items from the Sprint Backlog.
+
+The daily scrum is an opportunity to:
+
+1. Build trust and communication 
+2. Talk about your collective work and progress toward the sprint goal
+3. Ask for help, collaboration, or support if you need it
+4. Let each other know about roadblocks in your way
+
+What About the Three Daily Scrum Questions?
+1. What did you do yesterday to support the team’s progress toward the sprint goal?
+2. What will you do today to support the team’s progress toward the sprint goal?
+3. Are there any obstacle blocking your progress or the team’s progress toward the sprint goal?
+
+============================================================================================================================================================
+
+Sprint Retrospective
+
+A sprint retrospective is a type of meeting within the Agile framework, when teams reflect on what went well and what could be improved for their 
+next sprint.
+
+A sprint retrospective gives you an opportunity to review your latest sprint and make improvements for future sprints.
+These meetings are essential because regularly assessing and improving processes leads to quality results and fewer obstacles.
+
+Conducting a sprint retrospective allows you to learn from your previous efforts and improve future sprints, leading to streamlined Scrum sprints 
+and a better end result.  
+
+Here are some of the benefits of using sprint retrospectives:
+
+1. Fosters continuous improvement
+2. Enhances team collaboration
+3. Encourages problem-solving
+4. Prevents repeated mistakes
+5. Results in better quality deliverables
+6. Improves team morale
+
+============================================================================================================================================================
+
+Agile Workflow
+
+An agile workflow is a series of stages agile teams use to develop an application, from ideation to completion.
+
+Every software team has a process they use to complete work. Normalizing that process–i.e., establishing it as a workflow–makes it clearly 
+structured and repeatable, which, in turn, makes it scalable.
+
+When implementing a workflow for the team, always start simple. Fight the temptation to spend weeks (over-)engineering it.
+
+Basic workflow states:
+1. TO DO: Work that has not been started
+2. IN PROGRESS: Work that is actively being looked at by the team
+3. CODE REVIEW: Work that is completed and awaiting review
+4. DONE: Work that is completely finished and meets the team's definition of done
+
+Some software teams include additional states in their workflow that help them track the status of work more precisely:-
+
+1. AWAITING QA: Work that has been implemented, but is still waiting for a tester review (see our article on agile testing for more details).
+
+2. READY TO MERGE: Code that has been reviewed and is ready to merge into the main or release branch.
