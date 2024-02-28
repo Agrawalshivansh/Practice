@@ -1,0 +1,81 @@
+Test Plan
+
+A test plan defines your testing team’s test strategy, goals, and scope, which ultimately work together to ensure that all your software components 
+are tested sufficiently before a release. 
+
+Follow these six steps to create an efficient test plan:
+
+1. Define the release scope:  it’s important to define the scope of testing for your release. This means defining the features or functions that need to 
+be included in the release.
+
+2. Schedule timelines: Specify release deadlines to help you decide your testing time and routine.
+
+3. Define test objectives: A test objective is a reason or purpose for designing and executing a test. These objectives ultimately help guide and define 
+the scope of testing activities.
+
+4. Determine test deliverables:Test deliverables are the products of testing that help track testing progress. Deliverables should meet your project’s 
+and client’s needs, be identified early enough to be included in the test plan, and be scheduled accordingly. 
+ 
+5. Design the test strategy:Test strategy helps determine test cost, test effort, and which features will be in-scope (planned to be tested) versus 
+out-of-scope (not planned to be tested). 
+
+6. Plan test environment and test data:Planning a test environment guarantees precise and robust testing. The test environment includes hardware, 
+software, and network configurations for software testing. 
+
+Best Practices To Write Good Test Case:
+1. Easy to understand and execute
+2. Create Test Cases with End User’s perspective
+3. Unique Test case Identifiers must be used. It allows us to track them easily.
+4. Test data should be defined to evaluate each functional area.
+5. Test case description should be concise.
+6. Test Steps should be in detail and clear.
+7. Specify the exact expected result.
+
+How To Write Test Cases:
+1. Test Case ID: Each test case should be represented by a unique ID
+2. Test Case Description: Pick test cases properly from the test scenarios
+3. Pre-Conditions: Conditions that need to meet before executing the test case. 
+4. Test Steps: To execute test cases, you need to perform some actions. So write proper test steps.
+5. Test Data: You need proper test data to execute the test steps. The data which could be used an input for the test cases.
+6. Expected Result: The result which we expect once the test cases were executed.It might be anything such as Home Page,etc.
+7. Post Condition: Conditions that need to achieve when the test case was successfully executed.
+8. Actual Result: The result which system shows once the test case was executed.
+9. Status: Finally set the status as Pass or Fail based on the expected result against the actual result.
+
+Verification Testing: A test of a system to prove that it meets all its specified requirements at a particular stage of its development.
+
+Advantages of Verification Testing:
+1. Early and frequent verification reduces the number of bugs and defects that may show up in later stages.
+2. By verifying at each stage, devs, product managers can get more insight into what the product may need to be developed better in the coming stages.
+3. Even if all the bugs can't be solved immediately, verifying helps estimate the issues and help them better prepare to handle those when they appear.
+4. Verification helps keep software closely aligned with customers and business requirements at every stage.
+
+Validation Testing: An activity that ensures that an end product stakeholder’s true needs and expectations are met.
+validation testing occurs at the end of a specific module or even after the software has been entirely built. Its primary intent is to ensure the 
+final product matches the stakeholder and customer requirements.
+
+Some of the standard tests are:
+
+1. Unit Testing
+2. Integration Testing
+3. Functional Testing
+4. Performance Testing
+
+Advantages of Validation Testing:
+1. Any bugs missed during verification will be detected while running validation tests.
+2. If specifications were incorrect and inadequate, validation tests would reveal their inefficacy.
+3. Validation tests ensure that the product matches and adheres to customer demands, preferences, and expectations under different conditions.
+4. These tests are also required to ensure the software functions flawlessly across different browser-device-OS combinations.
+
+
+Positive Testing: It is a type of testing which is performed on a software application by providing the valid data sets as an input. It checks whether the 
+software application behaves as expected with positive inputs or not. Positive testing is performed in order to check whether the software application 
+does exactly what it is expected to do.
+
+Negative Testing: It is a testing method performed on the software application by providing invalid or improper data sets as input. It checks whether the 
+software application behaves as expected with the negative or unwanted user inputs. The purpose of negative testing is to ensure that the software 
+application does not crash and remains stable with invalid data inputs.
+
+
+============================================================================================================================================================
+
