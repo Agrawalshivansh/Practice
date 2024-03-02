@@ -1,0 +1,5 @@
+  @media screen and (min-width: 600px) and (max-width: 959px) {
+    section p {
+      width: 100%;
+    }
+  }

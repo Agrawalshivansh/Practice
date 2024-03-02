@@ -1,0 +1,28 @@
+agm-map {
+    height: 400px;
+  }
+
+  .controls {
+    position: absolute;
+    z-index: 999;
+    top: 120px;
+    right: 20px;
+  }
+  
+  button {
+    font-size: 14px;
+    background: grey;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  button:hover, button:focus {
+    background: black;
+  }
+  
+  .active {
+    background: black;
+  }
+  
